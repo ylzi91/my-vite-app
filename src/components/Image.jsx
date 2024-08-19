@@ -9,8 +9,11 @@ class Image extends Component{
         console.log('click')
         if(!(myImg.classList.contains('rounded') && myImg.classList.contains('rotate'))){
             myImg.classList.add('rounded')
-
-
+            myImg.classList.add('rotate')
+        }
+        else {
+            myImg.classList.remove('rounded')
+            myImg.classList.remove('rotate')
         }
         
           
